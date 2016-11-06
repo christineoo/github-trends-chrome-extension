@@ -1,0 +1,15 @@
+{
+  "name": "Github Trending",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Github Trending RSS",
+  "permissions": [
+    "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=?&q=",
+    "http://github-trends.ryotarai.info/rss/",
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "chrome_url_overrides" : {
+    "newtab": "myPage.html"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "github-trending",
+  "version": "1.0.0",
+  "description": "Show list of trending languages on Github",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "trending",
+    "programming",
+    "language"
+  ],
+  "author": "Christine Oo",
+  "license": "ISC"
+}
